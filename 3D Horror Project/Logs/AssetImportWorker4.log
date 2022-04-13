@@ -1,0 +1,421 @@
+Using pre-set license
+Built from '2021.2/staging' branch; Version is '2021.2.7f1 (6bd9e232123f) revision 7068130'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'en' Physical Memory: 16333 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+E:\Unity version\2021.2.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+E:/GitHub/ProJect-3D/3D Horror Project
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+59256
+Successfully changed project path to: E:/GitHub/ProJect-3D/3D Horror Project
+E:/GitHub/ProJect-3D/3D Horror Project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 95.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.7f1 (6bd9e232123f)
+[Subsystems] Discovering subsystems at path E:/Unity version/2021.2.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/GitHub/ProJect-3D/3D Horror Project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 (ID=0x2184)
+    Vendor:   NVIDIA
+    VRAM:     5991 MB
+    Driver:   30.0.15.1179
+Initialize mono
+Mono path[0] = 'E:/Unity version/2021.2.7f1/Editor/Data/Managed'
+Mono path[1] = 'E:/Unity version/2021.2.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/Unity version/2021.2.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56444
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/Unity version/2021.2.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003832 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 73.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.641 seconds
+Domain Reload Profiling:
+	ReloadAssembly (642ms)
+		BeginReloadAssembly (109ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (447ms)
+			LoadAssemblies (109ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (124ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (236ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (73ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (109ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005071 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\GitHub\ProJect-3D\3D Horror Project\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\GitHub\ProJect-3D\3D Horror Project\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.967 seconds
+Domain Reload Profiling:
+	ReloadAssembly (968ms)
+		BeginReloadAssembly (120ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (768ms)
+			LoadAssemblies (86ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (296ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (293ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (197ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3217 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (55.6 KB). Loaded Objects now: 3675.
+Memory consumption went from 114.3 MB to 114.3 MB.
+Total: 2.749200 ms (FindLiveObjects: 0.254300 ms CreateObjectMapping: 0.086600 ms MarkObjects: 2.336700 ms  DeleteObjects: 0.070700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 74572.898307 seconds.
+  path: Assets/ModularCityAlleyPack/Meshes/Walls/Wall_D_Brick_2x.FBX
+  artifactKey: Guid(165946a1bd4e7a449a9fe4810bd4298f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularCityAlleyPack/Meshes/Walls/Wall_D_Brick_2x.FBX using Guid(165946a1bd4e7a449a9fe4810bd4298f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a04a2dba1d134fb131c37334b0f2f864') in 0.212347 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/ModularCityAlleyPack/Meshes/Walls/Wall_D_Brick_DoorRoll_B_6x.FBX
+  artifactKey: Guid(3481fad49a871ae44b86a27bc321f675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularCityAlleyPack/Meshes/Walls/Wall_D_Brick_DoorRoll_B_6x.FBX using Guid(3481fad49a871ae44b86a27bc321f675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8daebeb89c0eab2b22fb64182f99655') in 0.048794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/ModularCityAlleyPack/Meshes/Walls/Wall_D_Brick_CornerOut_B_1x.FBX
+  artifactKey: Guid(f56dd177467bb824db09b7d139e2acba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularCityAlleyPack/Meshes/Walls/Wall_D_Brick_CornerOut_B_1x.FBX using Guid(f56dd177467bb824db09b7d139e2acba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e2103e840815d51b261309d8fb17aec') in 0.021014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.035260 seconds.
+  path: Assets/ModularCityAlleyPack/Meshes/Walls/Wall_D_Brick_DoorsHigh_4x.FBX
+  artifactKey: Guid(c8d1d899c7dca7949bc776fde94ccfeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularCityAlleyPack/Meshes/Walls/Wall_D_Brick_DoorsHigh_4x.FBX using Guid(c8d1d899c7dca7949bc776fde94ccfeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0672c31ac9f572c2867da49ad97e25e8') in 0.030103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ModularCityAlleyPack/Meshes/Walls/Wall_D_Brick_Window_C_2x.FBX
+  artifactKey: Guid(4233011aab6214345859bf95a2552409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularCityAlleyPack/Meshes/Walls/Wall_D_Brick_Window_C_2x.FBX using Guid(4233011aab6214345859bf95a2552409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db8358017c3012ec121ceb657a6f8f6c') in 0.035188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ModularCityAlleyPack/Meshes/Walls/Wall_D_Brick_MetalDoorsShop_6x.FBX
+  artifactKey: Guid(6ee8f7799adfd454f84d3c997c214972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularCityAlleyPack/Meshes/Walls/Wall_D_Brick_MetalDoorsShop_6x.FBX using Guid(6ee8f7799adfd454f84d3c997c214972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fd731d59b3f82d61bfd07124f624f1b') in 0.053592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/ModularCityAlleyPack/Meshes/Walls/Wall_D_Brick_Window_E_2x.FBX
+  artifactKey: Guid(5b126678a48945049a2e50fb4eb25dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularCityAlleyPack/Meshes/Walls/Wall_D_Brick_Window_E_2x.FBX using Guid(5b126678a48945049a2e50fb4eb25dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa8da3c76b97b4391acfb1f28fd623e5') in 0.037236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/ModularCityAlleyPack/Meshes/Walls/Wall_D_Brick_RectangleIn_6x.FBX
+  artifactKey: Guid(66e20d184dec9804c82fe0a9f904a3cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularCityAlleyPack/Meshes/Walls/Wall_D_Brick_RectangleIn_6x.FBX using Guid(66e20d184dec9804c82fe0a9f904a3cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fbd953102eb4c639f872d71423d10a8') in 0.018033 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ModularCityAlleyPack/Meshes/Walls/Wall_D_Brick_Window_F_2x.FBX
+  artifactKey: Guid(9ac18d6596143684da88361077fac1d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularCityAlleyPack/Meshes/Walls/Wall_D_Brick_Window_F_2x.FBX using Guid(9ac18d6596143684da88361077fac1d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f198520e3f09f23a25fbc17abd393635') in 0.035736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ModularCityAlleyPack/Meshes/Walls/Window_A.FBX
+  artifactKey: Guid(8b96688e23f3984469a64c2da19f87c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularCityAlleyPack/Meshes/Walls/Window_A.FBX using Guid(8b96688e23f3984469a64c2da19f87c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2611d922e4ec7baba25beb5287d0270d') in 0.024469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ModularCityAlleyPack/Meshes/Walls/Window_E.FBX
+  artifactKey: Guid(3a971ffb974f69e49bb60e79f614c807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularCityAlleyPack/Meshes/Walls/Window_E.FBX using Guid(3a971ffb974f69e49bb60e79f614c807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd670bd6f6a29a48ba01b5291601a422') in 0.029517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ModularCityAlleyPack/Meshes/Walls/WallFence_A_Tile_4x.FBX
+  artifactKey: Guid(6da77c57a42026d4a8878de0949fa45e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularCityAlleyPack/Meshes/Walls/WallFence_A_Tile_4x.FBX using Guid(6da77c57a42026d4a8878de0949fa45e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e77711272605190da0055bd4ca441f63') in 0.023430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ModularCityAlleyPack/Meshes/Walls/Wall_D_Brick_Xxxshop_6x.FBX
+  artifactKey: Guid(8f1dc859b2e508143ada7707821d8eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularCityAlleyPack/Meshes/Walls/Wall_D_Brick_Xxxshop_6x.FBX using Guid(8f1dc859b2e508143ada7707821d8eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8b9ddbaf7c56b746f9d2931d3921822') in 0.031089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.988973 seconds.
+  path: Assets/ModularCityAlleyPack/Prefabs/Prefabs_Walls/Doors
+  artifactKey: Guid(21d7ae684444bb64697059a814d077dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularCityAlleyPack/Prefabs/Prefabs_Walls/Doors using Guid(21d7ae684444bb64697059a814d077dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edc2b5ab352c1a9f0fb707d4a03a5aff') in 0.001741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.027089 seconds.
+  path: Assets/ModularCityAlleyPack/Prefabs/Prefabs_Walls/Doors/Door_A.prefab
+  artifactKey: Guid(5b86009528b315f48b1f48a4fa5a17cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularCityAlleyPack/Prefabs/Prefabs_Walls/Doors/Door_A.prefab using Guid(5b86009528b315f48b1f48a4fa5a17cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84e1b0a3ff08b2eaf44b9ca0d27157da') in 0.037215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.328930 seconds.
+  path: Assets/ModularCityAlleyPack/Prefabs/Prefabs_Walls/WallFence/Wall_Arc_2x.prefab
+  artifactKey: Guid(53ec4d750cf5eb64c8947d789e79de16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularCityAlleyPack/Prefabs/Prefabs_Walls/WallFence/Wall_Arc_2x.prefab using Guid(53ec4d750cf5eb64c8947d789e79de16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e1b7babd221f7e098ec69229339e51c') in 0.016106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ModularCityAlleyPack/Prefabs/Prefabs_Walls/WallFence/WallFence_A_Pilar.prefab
+  artifactKey: Guid(08ae5017409619942b032b0430fa9c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularCityAlleyPack/Prefabs/Prefabs_Walls/WallFence/WallFence_A_Pilar.prefab using Guid(08ae5017409619942b032b0430fa9c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2cd7eea1236eafb59cddb665bcbea58') in 0.024535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.184997 seconds.
+  path: Assets/ModularCityAlleyPack/Prefabs/Prefabs_Walls/Walls_D/CornersPilars
+  artifactKey: Guid(d0eb15bc406af5140a68a8c6562ad6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularCityAlleyPack/Prefabs/Prefabs_Walls/Walls_D/CornersPilars using Guid(d0eb15bc406af5140a68a8c6562ad6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4554f021a27f499f15c2d446bcc1efc3') in 0.001445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.049035 seconds.
+  path: Assets/ModularCityAlleyPack/Prefabs/Prefabs_Walls/Walls_D/CornersPilars/Wall_D_Brick_CornerIn_1x.prefab
+  artifactKey: Guid(c255af51794f5714f849fc6b87266261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularCityAlleyPack/Prefabs/Prefabs_Walls/Walls_D/CornersPilars/Wall_D_Brick_CornerIn_1x.prefab using Guid(c255af51794f5714f849fc6b87266261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2b3617e59203bc60020a0fb3a9251c0') in 0.020331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ModularCityAlleyPack/Prefabs/Prefabs_Walls/Walls_D/CornersPilars/Wall_D_Brick_Pilar_Tile_1x.prefab
+  artifactKey: Guid(cde10ee746ce2fe45b802ed4d9fc20ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularCityAlleyPack/Prefabs/Prefabs_Walls/Walls_D/CornersPilars/Wall_D_Brick_Pilar_Tile_1x.prefab using Guid(cde10ee746ce2fe45b802ed4d9fc20ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af9511cc17128216b4e7be1a1170e20d') in 0.015027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.208070 seconds.
+  path: Assets/ModularCityAlleyPack/Prefabs/Prefabs_Walls/WallFence
+  artifactKey: Guid(fe33dec241e2adb47b338e7cdb81482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularCityAlleyPack/Prefabs/Prefabs_Walls/WallFence using Guid(fe33dec241e2adb47b338e7cdb81482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '071153958a5b570a3bb9beecca31021a') in 0.001665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.268900 seconds.
+  path: Assets/ModularCityAlleyPack/Prefabs/Prefabs_Walls/Walls_A/Walls_A
+  artifactKey: Guid(ece4eeb1858d1c54f9eb9286e2bf5f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularCityAlleyPack/Prefabs/Prefabs_Walls/Walls_A/Walls_A using Guid(ece4eeb1858d1c54f9eb9286e2bf5f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0783673666049dba68bd48b7d1f246b3') in 0.001549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.034934 seconds.
+  path: Assets/ModularCityAlleyPack/Prefabs/Prefabs_Walls/Walls_A/Walls_A/W_RectangleIn_16x.prefab
+  artifactKey: Guid(9a6fc6e4fcc197c4389536bae260cd0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularCityAlleyPack/Prefabs/Prefabs_Walls/Walls_A/Walls_A/W_RectangleIn_16x.prefab using Guid(9a6fc6e4fcc197c4389536bae260cd0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1632c4402a56bcb329f19b89cf1d7496') in 0.014735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ModularCityAlleyPack/Prefabs/Prefabs_Walls/Walls_A/Walls_A/Wall_A_Brick_TriangleIn_6x.prefab
+  artifactKey: Guid(40141b17c2755c84cae2040ef58ca893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularCityAlleyPack/Prefabs/Prefabs_Walls/Walls_A/Walls_A/Wall_A_Brick_TriangleIn_6x.prefab using Guid(40141b17c2755c84cae2040ef58ca893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3955053573da1478fdfaf421fe912dd7') in 0.018953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ModularCityAlleyPack/Prefabs/Prefabs_Walls/Walls_A/Walls_A/Wall_A_Brick_6x.prefab
+  artifactKey: Guid(47c04787b2e40984987c7106e53e7893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularCityAlleyPack/Prefabs/Prefabs_Walls/Walls_A/Walls_A/Wall_A_Brick_6x.prefab using Guid(47c04787b2e40984987c7106e53e7893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '061e477e2bff8fb948438e4220beb0b7') in 0.012952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.657035 seconds.
+  path: Assets/ModularCityAlleyPack/Prefabs/Prefabs_Walls/Walls_A/SmallDoors/W_A_DoorOpen_2x.prefab
+  artifactKey: Guid(9efdd2d84f2efea48a7b600f9b5aff8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularCityAlleyPack/Prefabs/Prefabs_Walls/Walls_A/SmallDoors/W_A_DoorOpen_2x.prefab using Guid(9efdd2d84f2efea48a7b600f9b5aff8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f232fb6580aa983a1d7b571d10fd411d') in 0.021800 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ModularCityAlleyPack/Prefabs/Prefabs_Walls/Walls_A/SmallDoors/Wall_A_Brick_Door_E_2x.prefab
+  artifactKey: Guid(698446cd657752d4d90635d33566bac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularCityAlleyPack/Prefabs/Prefabs_Walls/Walls_A/SmallDoors/Wall_A_Brick_Door_E_2x.prefab using Guid(698446cd657752d4d90635d33566bac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edd4b361444abd70d31ad29daf6edbbd') in 0.037327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/ModularCityAlleyPack/Prefabs/Prefabs_Walls/Walls_A/SmallDoors/Wall_A_Brick_Door_C_2x.prefab
+  artifactKey: Guid(fa194e79ca3a92f4da2a0d33b6d7839d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularCityAlleyPack/Prefabs/Prefabs_Walls/Walls_A/SmallDoors/Wall_A_Brick_Door_C_2x.prefab using Guid(fa194e79ca3a92f4da2a0d33b6d7839d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '488fa7a091770540385c65894c88e794') in 0.038411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 114.956467 seconds.
+  path: Assets/ModularCityAlleyPack/Prefabs/Prefabs_Walls/Walls_D/Windows/Wall_D_Brick_Window_A_2x.prefab
+  artifactKey: Guid(57a8fa283894f4349b9771b5a53aa026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularCityAlleyPack/Prefabs/Prefabs_Walls/Walls_D/Windows/Wall_D_Brick_Window_A_2x.prefab using Guid(57a8fa283894f4349b9771b5a53aa026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df422405101bcbf10f1b2e35beade36f') in 0.030604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.053549 seconds.
+  path: Assets/ModularCityAlleyPack/Prefabs/Prefabs_Walls/Walls_D/Windows/Wall_D_Brick_Window_E_2x.prefab
+  artifactKey: Guid(adcd12f8b25cbd84b8ea6fff06dd3952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularCityAlleyPack/Prefabs/Prefabs_Walls/Walls_D/Windows/Wall_D_Brick_Window_E_2x.prefab using Guid(adcd12f8b25cbd84b8ea6fff06dd3952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26d49cb736fe08fbb230e1e2e9aaf5aa') in 0.039439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ModularCityAlleyPack/Prefabs/Prefabs_Walls/Walls_D/Windows/Wall_D_Brick_Window_F_2x.prefab
+  artifactKey: Guid(ab4bbca7c9250e74cab2e9276e79b389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularCityAlleyPack/Prefabs/Prefabs_Walls/Walls_D/Windows/Wall_D_Brick_Window_F_2x.prefab using Guid(ab4bbca7c9250e74cab2e9276e79b389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7d4c76aa758e6a36827734544a3a649') in 0.035578 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/ModularCityAlleyPack/Prefabs/Prefabs_Walls/Walls_D/Windows/Wall_D_Brick_Window_J_2x.prefab
+  artifactKey: Guid(8087c7f28cbd3d348a22c88a4e02895d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularCityAlleyPack/Prefabs/Prefabs_Walls/Walls_D/Windows/Wall_D_Brick_Window_J_2x.prefab using Guid(8087c7f28cbd3d348a22c88a4e02895d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c83c60bd3b8fc2574f3c85759350144') in 0.036956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ModularCityAlleyPack/Prefabs/Prefabs_Walls/Walls_D/Windows/Wall_D_Brick_Window_D_2x.prefab
+  artifactKey: Guid(bf56bdba860badd42982b4df632cd865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularCityAlleyPack/Prefabs/Prefabs_Walls/Walls_D/Windows/Wall_D_Brick_Window_D_2x.prefab using Guid(bf56bdba860badd42982b4df632cd865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9738561e1aa7acdcc65c538bc59ee04b') in 0.029913 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 108.230266 seconds.
+  path: Assets/ModularCityAlleyPack/Prefabs/Prefabs_Walls/Walls_D/SmallDoors/Wall_D_Brick_Door_A_2x.prefab
+  artifactKey: Guid(45ea31a7c204656408721a546e742955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularCityAlleyPack/Prefabs/Prefabs_Walls/Walls_D/SmallDoors/Wall_D_Brick_Door_A_2x.prefab using Guid(45ea31a7c204656408721a546e742955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c597322750254b66bf84f81fcaacffa') in 0.029303 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ModularCityAlleyPack/Prefabs/Prefabs_Walls/Walls_D/SmallDoors/Wall_D_Brick_Door_E_2x.prefab
+  artifactKey: Guid(df2f091ca5d8dc34a9846e50e1bd93c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularCityAlleyPack/Prefabs/Prefabs_Walls/Walls_D/SmallDoors/Wall_D_Brick_Door_E_2x.prefab using Guid(df2f091ca5d8dc34a9846e50e1bd93c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1e755cc938d8bd014996c1783373c28') in 0.030979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ModularCityAlleyPack/Prefabs/Prefabs_Walls/Walls_D/SmallDoors/Wall_D_Brick_Door_C_2x.prefab
+  artifactKey: Guid(145ed4c30ba8735408da29df3f1aeb8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularCityAlleyPack/Prefabs/Prefabs_Walls/Walls_D/SmallDoors/Wall_D_Brick_Door_C_2x.prefab using Guid(145ed4c30ba8735408da29df3f1aeb8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83cab52e1ba7abecc5f3bf9033bd323d') in 0.035160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ModularCityAlleyPack/Prefabs/Prefabs_Walls/Walls_D/SmallDoors/Wall_D_Brick_Door_D_2x.prefab
+  artifactKey: Guid(ff6f4f0b36ac73d4ea9269e7d9cd5223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularCityAlleyPack/Prefabs/Prefabs_Walls/Walls_D/SmallDoors/Wall_D_Brick_Door_D_2x.prefab using Guid(ff6f4f0b36ac73d4ea9269e7d9cd5223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79c1b9a9cfa4b852e8e1c7dd00c5005a') in 0.032124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ModularCityAlleyPack/Prefabs/Prefabs_Walls/Walls_D/SmallDoors/Wall_D_Brick_Door_F_2x.prefab
+  artifactKey: Guid(aaf5495fbdff4a74e92f4aa7d6d96d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularCityAlleyPack/Prefabs/Prefabs_Walls/Walls_D/SmallDoors/Wall_D_Brick_Door_F_2x.prefab using Guid(aaf5495fbdff4a74e92f4aa7d6d96d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bfb0656914212eb40a44b855e0fb01b') in 0.042464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 356.722275 seconds.
+  path: Assets/ModularCityAlleyPack/Meshes/Roofs/Roof_Large_Corner_4x.FBX
+  artifactKey: Guid(43c4c6b41f3e3db4dba8327bf377a748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularCityAlleyPack/Meshes/Roofs/Roof_Large_Corner_4x.FBX using Guid(43c4c6b41f3e3db4dba8327bf377a748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c74d1e5b7245f62378dfdcb77e469141') in 0.019883 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002992 seconds.
+  path: Assets/ModularCityAlleyPack/Meshes/Roofs/Roof_Small_Set.FBX
+  artifactKey: Guid(259d3f31f10b9a14ea9759c86eccda89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularCityAlleyPack/Meshes/Roofs/Roof_Small_Set.FBX using Guid(259d3f31f10b9a14ea9759c86eccda89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f403a99f82a3109ed3bac02f690e515') in 0.022965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/ModularCityAlleyPack/Meshes/Roofs/Roof_Large_Tiled_4x.FBX
+  artifactKey: Guid(0f0050e9e0214e040930207053918b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularCityAlleyPack/Meshes/Roofs/Roof_Large_Tiled_4x.FBX using Guid(0f0050e9e0214e040930207053918b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57fc504551a43ba140e2796781b24e9c') in 0.023143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ModularCityAlleyPack/Meshes/Roofs/Roof_Small_Corner_2x.FBX
+  artifactKey: Guid(04d26dc647d24b2479ecef86859c6a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularCityAlleyPack/Meshes/Roofs/Roof_Small_Corner_2x.FBX using Guid(04d26dc647d24b2479ecef86859c6a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '037979a0de27d00ec7f7cf8d858cecd4') in 0.016747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ModularCityAlleyPack/Meshes/Roofs/Roof_Small_Tiled_2x.FBX
+  artifactKey: Guid(2e160c7ec6253af47a643c75896a131c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularCityAlleyPack/Meshes/Roofs/Roof_Small_Tiled_2x.FBX using Guid(2e160c7ec6253af47a643c75896a131c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '827d0c7fd3a5a19b080dd084baf13398') in 0.021459 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
